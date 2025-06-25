@@ -42,7 +42,7 @@ After generating a statistical overview, the analysis focused specifically on th
    - Price fields (Open, Close, High, Low) were strongly correlated (ρ ~ 1.0)
 
 EDA_NASDAQ/
-├── NASDAQ(Analysis).ipynb
+├── Analysis.ipynb
 ├── cleaned_finance_data.csv
 ├── Dow Jones(label_0).csv
 ├── Dow Jones_summary.csv
