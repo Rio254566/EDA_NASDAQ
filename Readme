@@ -1,1 +1,19 @@
-a
+##NASDAQ Monthly Data Analysis (2000–2008)
+
+This project analyzes monthly averaged NASDAQ-related financial and macroeconomic data from **January 2000 to December 2008**. It includes feature-level exploration, trend analysis, correlation mapping, and anomaly detection
+
+EDA_NASDAQ/
+├── NASDAQ(Analysis).csv
+├── NASDAQ(label_1).csv
+├── NASDAQ(label_1).csv
+├── NASDAQ(label_1).csv
+├── NASDAQ(label_1).csv
+├── NASDAQ_monthly_avg.csv
+├── nasdaq_trend_anomaly/
+│   ├── <feature>_trend_outliers.png
+│   └── nasdaq_trend_summary.csv
+├── nasdaq_monthly_relationship_plots/
+│   ├── nasdaq_monthly_pairplot.png
+│   └── nasdaq_monthly_correlation_heatmap.png
+├── 
+└── README.md
