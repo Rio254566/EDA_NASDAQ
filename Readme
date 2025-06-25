@@ -3,17 +3,32 @@
 This project analyzes monthly averaged NASDAQ-related financial and macroeconomic data from **January 2000 to December 2008**. It includes feature-level exploration, trend analysis, correlation mapping, and anomaly detection
 
 EDA_NASDAQ/
-├── NASDAQ(Analysis).csv
-├── NASDAQ(label_1).csv
-├── NASDAQ(label_1).csv
-├── NASDAQ(label_1).csv
-├── NASDAQ(label_1).csv
+├── NASDAQ(Analysis).ipynb
+├── cleaned_finance_data.csv
+├── Dow Jones(label_0).csv
+├── Dow Jones_summary.csv
+├── Full_Dataset_Summary.csv
 ├── NASDAQ_monthly_avg.csv
+├── NASDAQ(label_1).csv
+├── NASDAQ_summary.csv
+├── S&P 500(label_2).csv
+├── S&P 500_summary.csv
 ├── nasdaq_trend_anomaly/
 │   ├── <feature>_trend_outliers.png
 │   └── nasdaq_trend_summary.csv
 ├── nasdaq_monthly_relationship_plots/
 │   ├── nasdaq_monthly_pairplot.png
 │   └── nasdaq_monthly_correlation_heatmap.png
-├── 
+├── nasdaq_feature_inference.txt
 └── README.md
+
+###  Feature-Level Correlation
+- Used **correlation matrix** and **pairplots**
+- Price-related columns (Open, Close, High, Low) showed **perfect correlation (ρ ≈ 1.0)**
+- Most macroeconomic variables had **weak-to-moderate correlation**
+
+### Trend & Anomaly Detection
+- Line plots for each numeric feature
+- Outliers detected using **Z-score method**
+- Trend direction (increasing/decreasing/stable) analyzed using linear regression
+
