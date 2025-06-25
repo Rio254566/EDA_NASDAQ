@@ -1,0 +1,56 @@
+inference_text = """
+ Feature-Level Inferences from Correlation Matrix
+
+1. Highly Correlated:
+   - Open Price, Close Price, Daily High, Daily Low (ρ ≈ 1.0)
+   → Drop redundant columns
+
+2. Moderately Correlated:
+   - GDP Growth & Inflation Rate (ρ ≈ 0.41)
+   - Consumer Confidence & Profits (ρ ≈ 0.46)
+
+3. Weak/No Correlation:
+   - Trading Volume, Forex indicators
+   → Try non-linear models or include lag features
+
+Conclusion:
+- Perform feature selection
+- Consider PCA or decision trees
+
+with open("nasdaq_feature_inference.md", "w") as f:
+    f.write(inference_text)
+
+NASDAQ Monthly Average – Trend Analysis (2000–2008)
+===================================================
+
+Time frame includes:
+- Dot-com bubble aftermath (2000–2002)
+- Market recovery (2003–2006)
+- Early phase of the 2008 global financial crisis
+
+1. Stock Market Prices (Open, Close, High, Low)
+-----------------------------------------------
+
+
+2. Inflation Rate (%)
+----------------------
+
+
+3. Unemployment Rate (%)
+-------------------------
+
+
+4. Interest Rate (%)
+---------------------
+
+5. GDP Growth (%)
+------------------
+
+6. Gold Price (USD per Ounce)
+------------------------------
+
+
+7. Oil Price (USD per Barrel)
+------------------------------
+
+
