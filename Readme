@@ -1,6 +1,45 @@
-##NASDAQ Monthly Data Analysis (2000–2008)
+Exploratory Data Analysis of Stock Indices (2000–2008)
 
-This project analyzes monthly averaged NASDAQ-related financial and macroeconomic data from **January 2000 to December 2008**. It includes feature-level exploration, trend analysis, correlation mapping, and anomaly detection
+This project involves a comprehensive exploratory data analysis (EDA) on historical stock index data from 2000 to 2008. The dataset contains daily values across various economic and financial indicators, which are averaged monthly for more stable long-term trend analysis.
+
+---
+
+General Summary
+
+- **Dataset:** Historical economic indicators and major U.S. stock indices
+- **Period Covered:** 2000 to 2008
+- **Indices Included:** Dow Jones, NASDAQ, S&P 500
+- **Macroeconomic Indicators:** Inflation, Unemployment, Interest Rate, GDP Growth, Gold and Oil Prices, Forex rates, etc.
+- **Objective:** Derive statistical summaries, understand feature relationships, identify trends and anomalies
+
+---
+
+##  Statistical Summary (All Data)
+
+Each feature was analyzed using descriptive statistics:
+
+- **Mean, Median, Std Dev, Min, Max** calculated for all numeric columns
+- Allowed comparison of variability across indicators
+- Helped flag features with potentially skewed distributions or outliers
+
+---
+
+##  Index-Specific Focus: NASDAQ
+
+After generating a statistical overview, the analysis focused specifically on the **NASDAQ** index.
+
+### ✅ Steps Performed:
+
+1. **Filtering**: Extracted NASDAQ-labeled rows from the original dataset
+2. **Monthly Aggregation**: Computed monthly averages of all features
+3. **Statistical Summary**: Redone for NASDAQ-only data to reflect index-specific behavior
+4. **Visualizations**:
+   - **Histograms and Boxplots**: To observe data distribution and outliers
+   - **Correlation Matrix & Pairplots**: To understand linear feature relationships
+   - **Trendlines & Anomaly Detection**: To capture overall direction and unusual data points
+5. **Correlation Range**:
+   - Features had mostly weak to moderate correlations
+   - Price fields (Open, Close, High, Low) were strongly correlated (ρ ~ 1.0)
 
 EDA_NASDAQ/
 ├── NASDAQ(Analysis).ipynb
